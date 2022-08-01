@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Hero{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body{
+    height: 450px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+
+}
+.inner-div-left{
+    flex: 0.5;
+    background-image: url(./product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.inner-div-right{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+
+}
+.cart{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.amount{
+    display: flex;
+    margin: 10px 20px;
+}
+h2{
+    color:hsl(158, 36%, 37%);
+    padding-right: 20px;
+}
+p{
+    color: rgb(99, 99, 99);
+    margin: 10px 20px;
+}
+h4{
+    color: rgb(99, 99, 99);
+}
+h3{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+    font-family: monospace;
+    font-weight: 100;
+}
+h1{
+    margin: 10px 20px;
+    font-weight: 800;
+}
+@media only screen and (max-width: 600px) 
+.Hero{
+        background-color: hsl(30, 38%, 92%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+.body{
+    height: 450px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+}
+
+.inner-div-left{
+    flex: 0.5;
+    background-image: url(./product-preview-card-component-main/images/image-product-mobile.jpg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.inner-div-right{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+
+}
+.cart{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.amount{
+    display: flex;
+    margin: 10px 20px;
+}
+h2{
+    color:hsl(158, 36%, 37%);
+    padding-right: 20px;
+}
+p{
+    color: rgb(99, 99, 99);
+    margin: 10px 20px;
+}
+h4{
+    color: rgb(99, 99, 99);
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+    font-family: monospace;
+    font-weight: 100;
+    margin: 10px;
+}
+h1{
+    margin: 10px 20px;
+    font-weight: 800;
+    
